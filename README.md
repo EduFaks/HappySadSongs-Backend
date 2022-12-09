@@ -2,7 +2,7 @@
 - Title: happysadsongs
 - Description: modeling to predict whether song lyrics are happy or sad/angry
 - After testing various models, we deployed a RoBERTa model fine-tuned on our training data to a web app. For that deployment, see [HappySadSongs-Frontend repo](../../../HappySadSongs-Frontend) 
-- See model in action at https://happysadsongs.herokuapp.com/ (OUTDATED)
+- See model in action at https://happysadsongs.herokuapp.com/ _(OUTDATED)_
 
 ## Data Sources
 ### Training Data Source: 
@@ -42,7 +42,7 @@ On our test set, we achieved the following overall performance metrics:
 Of note, the model has a higher precision score for happy and higher recall score for angry/sad. This aligns with our overall goal of not providing false positives for happy songs. (We wouldn't want to tell someone everything is great based on their recent playlist if, in fact, many of the songs were very sad or angry). 
 
 ## Application & Deployment
-We containerized our model with Docker and uploaded it to Google Cloud Registry. We deploy the model with Google Cloud Run and developed a user-facing web app, see [happysadsongs](https://happysadsongs.herokuapp.com/) and [happysadsongs-frontend-2 repo](../../../happysadsongs-frontend-2). 
+We containerized our model with Docker and uploaded it to Google Cloud Registry. We deploy the model with Google Cloud Run and developed a user-facing web app, see [HappySadSongs](https://happysadsongs.herokuapp.com/) _(OUTDATED)_ and [HappySadSongs-Frontend](../../../HappySadSongs-Frontend). 
 
 ## Next Steps
 There are several areas for further exploration and improvement.
