@@ -2,7 +2,7 @@
 - Title: happysadsongs
 - Description: modeling to predict whether song lyrics are happy or sad/angry
 - After testing various models, we deployed a RoBERTa model fine-tuned on our training data to a web app. For that deployment, see [HappySadSongs-Frontend repo](../../../HappySadSongs-Frontend) 
-- See model in action at https://happysadsongs.herokuapp.com/
+- See model in action at https://happysadsongs.herokuapp.com/ (OUTDATED)
 
 ## Data Sources
 ### Training Data Source: 
